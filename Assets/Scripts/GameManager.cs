@@ -58,4 +58,9 @@ public class GameManager : MonoBehaviour
     {
         pointsTXT.text = "Points: " + points;
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
